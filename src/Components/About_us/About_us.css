@@ -1,0 +1,44 @@
+.about_us{
+    margin-bottom: 0;  
+    width:100%; 
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+    /* margin-bottom: 0; */
+}
+.about p{
+    text-align: left;
+    line-height: 40px;
+    font-size: large;
+    height: auto;
+}
+
+.about img{
+     padding: 10% 2%;
+
+    width:50%; 
+    height: auto;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+@media(max-width:1190px){
+    .about{
+        flex-direction: column;
+        width:100%;
+    }
+    .about img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about p{
+        margin-left: 2%;
+        margin-right: 2%;
+        font-size: larger;
+
+    }
+}
